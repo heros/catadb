@@ -2,7 +2,7 @@
 SQLyog Job Agent v11.11 (64 bit) Copyright(c) Webyog Inc. All Rights Reserved.
 
 
-MySQL - 5.5.39 : Database - world
+MySQL - 5.5.39 : Database - emucoachw
 *********************************************************************
 */
 
@@ -14,9 +14,9 @@ MySQL - 5.5.39 : Database - world
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-CREATE DATABASE /*!32312 IF NOT EXISTS*/`world` /*!40100 DEFAULT CHARACTER SET latin1 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`emucoachw` /*!40100 DEFAULT CHARACTER SET latin1 */;
 
-USE `world`;
+USE `emucoachw`;
 
 /*Table structure for table `version` */
 
@@ -25,7 +25,7 @@ DROP TABLE IF EXISTS `version`;
 CREATE TABLE `version` (
   `core_version` varchar(120) DEFAULT NULL COMMENT 'Core revision dumped at startup.',
   `core_revision` varchar(120) DEFAULT NULL,
-  `db_version` varchar(120) DEFAULT NULL COMMENT 'Version of world DB.',
+  `db_version` varchar(120) DEFAULT NULL COMMENT 'Version of emucoachw DB.',
   `cache_id` int(11) DEFAULT '0'
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Version Notes';
 
